@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="id" data-theme="dark">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <!-- SEO & Professional Metadata -->
+  <title>Portofolio Profesional | Web Developer</title>
+  <meta name="description"
+    content="Portofolio resmi dan profil profesional Web Developer dengan keahlian mendalam pada HTML5, CSS3, dan implementasi JavaScript interaktif. Siap untuk posisi Full-time atau Magang.">
+  <meta name="author" content="Nama Lengkap Anda">
+  <meta name="keywords" content="web developer, portofolio, frontend developer, html css, javascript, lamaran kerja">
+
+  <!-- Favicon SVG -->
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💼</text></svg>">
+
+  <!-- Google Fonts: Plus Jakarta Sans (Modern, Clean & Formal) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Header & Navigation -->
+  <header class="site-header" id="header">
+    <div class="container header-container">
+      <a href="#tentang-saya" class="brand-logo" id="brand-logo">
+        <span class="logo-text">Portofolio</span>
+      </a>
+
+      <!-- Desktop Navigation Menu (3 Menu Utama Sesuai Instruksi) -->
+      <nav class="nav-menu" id="nav-menu" aria-label="Menu Navigasi Utama">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="#tentang-saya" class="nav-link active" id="nav-tentang">
+              <span class="nav-number">01.</span> Tentang Saya
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#pengalaman" class="nav-link" id="nav-pengalaman">
+              <span class="nav-number">02.</span> Pengalaman
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#kontak" class="nav-link" id="nav-kontak">
+              <span class="nav-number">03.</span> Kontak Saya
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Action Utilities: Theme Toggle & Mobile Hamburger -->
+      <div class="header-actions">
+        <!-- Theme Toggle Button -->
+        <button type="button" class="theme-toggle-btn" id="theme-toggle" aria-label="Ubah Tema Gelap atau Terang"
+          title="Ubah Tema">
+          <svg class="theme-icon sun-icon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor"
+            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+          <svg class="theme-icon moon-icon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor"
+            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+
+        <!-- CTA Hubungi Singkat -->
+        <a href="#kontak" class="btn btn-outline btn-sm header-cta" id="header-contact-btn">
+          Hubungi Saya
+        </a>
+
+        <!-- Hamburger Button for Mobile -->
+        <button type="button" class="mobile-toggle" id="mobile-toggle" aria-label="Buka Menu Navigasi"
+          aria-expanded="false" aria-controls="nav-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <!-- ============================================== -->
+    <!-- NAVIGASI 1: TENTANG SAYA (LANDING PAGE & SOSMED) -->
+    <!-- ============================================== -->
+    <section class="section hero-section" id="tentang-saya">
+      <div class="container hero-container">
+        <!-- Kolom Teks / Profil Diri -->
+        <div class="hero-content">
+          <h1 class="hero-title">
+            Halo semuanya,<span class="highlight-text"> Saya Fathir Raihan</span>
+          </h1>
+          <p class="hero-role">Web Programmer</p>
+
+          <p class="hero-bio">
+            Perkenalkan nama saya Fathir Raihan yang merupakan Mahasiswa Baru jurusan
+            Sistem Informasi di Universitas Tanjungpura.
+          </p>
+          <!-- Action Buttons -->
+          <div class="hero-actions">
+            <a href="#kontak" class="btn btn-primary" id="btn-hero-contact">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+              <span>Media Kerja Sama</span>
+            </a>
+
+            <a href="#pengalaman" class="btn btn-secondary" id="btn-hero-projects">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+              <span>Lihat Pengalaman</span>
+            </a>
+          </div>
+
+          <!-- MEDIA SOSIAL RESMI (Instagram & TikTok Sesuai Perintah) -->
+          <div class="social-channels" id="social-channels">
+            <span class="social-label">Media Sosial :</span>
+            <div class="social-cards-grid">
+
+              <!-- Instagram Card -->
+              <a href="https://instagram.com/tirrhan_" target="_blank" rel="noopener noreferrer"
+                class="social-card instagram-card" id="card-instagram">
+                <div class="social-card-icon">
+                  <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                  </svg>
+                </div>
+                <div class="social-card-info">
+                  <span class="social-platform">Instagram</span>
+                  <span class="social-handle">@tirrhan_</span>
+                </div>
+                <span class="social-badge">Ikuti ↗</span>
+              </a>
+
+              <!-- TikTok Card -->
+              <a href="https://tiktok.com/@tirn10_" target="_blank" rel="noopener noreferrer"
+                class="social-card tiktok-card" id="card-tiktok">
+                <div class="social-card-icon">
+                  <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                    <path
+                      d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.96-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.24 1.07-.14 1.61.24 1.64 1.82 2.89 3.5 2.74 1.45-.07 2.76-1.09 3.09-2.5.09-.43.12-.88.12-1.33V.02h-.32z" />
+                  </svg>
+                </div>
+                <div class="social-card-info">
+                  <span class="social-platform">TikTok</span>
+                  <span class="social-handle">@tirn10</span>
+                </div>
+                <span class="social-badge">Ikuti ↗</span>
+              </a>
+
+            </div>
+          </div>
+        </div>
+
+        <!-- Kolom Visual Avatar Profil Formal -->
+        <div class="hero-visual">
+          <div class="avatar-wrapper">
+            <div class="avatar-frame">
+              <img src="assets/profil diri.jpg" alt="Foto Fathir Raihan" class="avatar-image" id="profile-avatar">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================== -->
+    <!-- NAVIGASI 2: PENGALAMAN (HTML/CSS LENGKAP & JS) -->
+    <!-- ============================================== -->
+    <section class="section experience-section" id="pengalaman">
+      <div class="container">
+
+        <!-- Header Section -->
+        <div class="section-header text-center">
+          <span class="section-tag">Kompetensi & Portofolio </span>
+          <h2 class="section-title">Pengalaman Web Programming</h2>
+          <p class="section-subtitle">
+            Saya mampu membuat website yang masih dasar dengan HTML dan CSS saja, untuk Javascript masih
+            diperlukan pembelajaran yang lebih lanjut.
+          </p>
+        </div>
+
+        <!-- Ringkasan Kompetensi Spesifik (HTML & CSS Lengkap + JS Sedikit) -->
+        <div class="skills-breakdown-grid">
+
+          <!-- Card 1: HTML5 (Lengkap) -->
+          <div class="skill-category-card">
+            <div class="card-icon-badge html-badge">
+              <span>&lt;/&gt;</span>
+            </div>
+            <div class="card-title-group">
+              <h3>HTML</h3>
+              <span class="card-level complete-level">Penguasaan Penuh (100%)</span>
+            </div>
+            <p class="card-description">
+              Mampu membuat kerangka website dengan baik.
+            </p>
+            <ul class="skill-checklist">
+              <li>Paham Struktur Semantik (header, nav, main, article, section, footer)</li>
+              <li>Paham Fungsi Elemen-Elemen yang umum pada HTML</li>
+              <li>Mengerti cara menggunakan atribut</li>
+            </ul>
+          </div>
+
+          <!-- Card 2: CSS3 (Lengkap) -->
+          <div class="skill-category-card">
+            <div class="card-icon-badge css-badge">
+              <span>{ }</span>
+            </div>
+            <div class="card-title-group">
+              <h3>CSS</h3>
+              <span class="card-level complete-level">Penguasaan Penuh (100%)</span>
+            </div>
+            <p class="card-description">
+              Mampu membuat design dasar untuk menghiasi HTML dengan level yang cukup baik tanpa bantuan framework.
+            </p>
+            <ul class="skill-checklist">
+              <li>Paham cara memanggil CSS ke HTML</li>
+              <li>Mengerti cara agar membuat layar responsif di device manapun</li>
+              <li>Mampu membuat flexbox dengan baik</li>
+            </ul>
+          </div>
+
+          <!-- Card 3: JavaScript (Sedikit / Fungsional Esensial) -->
+          <div class="skill-category-card">
+            <div class="card-icon-badge js-badge">
+              <span>JS</span>
+            </div>
+            <div class="card-title-group">
+              <h3>JavaScript</h3>
+              <span class="card-level foundational-level">Penguasaan Dasar (20%)</span>
+            </div>
+            <p class="card-description">
+              Masih baru mendalami JavaScript, level yang dikuasai masih dasar.
+            </p>
+            <ul class="skill-checklist">
+              <li>Memahami posisi expression dan statement dalam JS</li>
+              <li>Tahu cara menjalankan JS melalui console.log()</li>
+              <li>Paham posisi-posisi tipe data</li>
+              <li>Memahami Paramater dan Argument</li>
+              <li>Tahu cara menggunakan function</li>
+            </ul>
+          </div>
+
+        </div>
+
+        <!-- Filter Tab Interaktif Proyek -->
+        <div class="projects-wrapper">
+          <div class="projects-filter-bar">
+            <h3 class="filter-title">Karya Website</h3>
+          </div>
+
+          <!-- Project Showcase Cards -->
+          <div class="projects-grid" id="projects-grid">
+
+            <!-- Proyek 1: HTML & CSS Showcase -->
+            <article class="project-card" data-category="html-css">
+              <div class="project-thumbnail-wrapper">
+                <img src="assets/Karya 2.png" alt="Karya Website" class="project-img" loading="lazy">
+              </div>
+              <div class="project-content">
+                <h4 class="project-title">Membuat Website dengan HTML dan CSS saja</h4>
+                <p class="project-summary">
+                  Saya membuat website ini menggunakan HTML dan CSS saja, tanpa bantuan framework dan JavaScript,
+                  berisi deskripsi hewan reptil komodo.
+                </p>
+                <div class="project-details">
+                  <div class="detail-row">
+                    <span>100% Vanilla CSS, 0 Framework</span>
+                  </div>
+                </div>
+              </div>
+          </div>
+          </article>
+        </div>
+      </div>
+
+      <!-- Timeline Pengalaman Kerja & Pendidikan Formal -->
+      <div class="timeline-container">
+        <h3 class="timeline-heading text-center">Jejak Langkah Profesional & Akademis</h3>
+        <div class="timeline">
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">2026 - Sekarang</div>
+            <div class="timeline-content">
+              <h4>Berkuliah di Universitas Tanjungpura </h4>
+              <p class="timeline-company">Jurusan Sistem Informasi</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">2023 - 2024</div>
+            <div class="timeline-content">
+              <h4>Bersekolah dan Lulus di MAN 2 Pontianak</h4>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      </div>
+    </section>
+
+    <!-- ============================================== -->
+    <!-- NAVIGASI 3: KONTAK SAYA (PILIHAN GITHUB & WHATSAPP) -->
+    <!-- ============================================== -->
+    <section class="section contact-section" id="kontak">
+      <div class="container">
+
+        <div class="section-header text-center">
+          <span class="section-tag">Kontak</span>
+          <h2 class="section-title">Media Bekerja Sama</h2>
+        </div>
+
+        <!-- 2 PILIHAN UTAMA: GITHUB & WHATSAPP (Sesuai Permintaan Spesifik) -->
+        <div class="contact-channels-grid">
+
+          <!-- KANAL 1: GITHUB -->
+          <div class="channel-card github-channel" id="channel-github">
+            <div class="channel-header">
+              <div class="channel-icon-circle github-circle">
+                <svg viewBox="0 0 24 24" width="32" height="32" fill="currentColor">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z">
+                  </path>
+                </svg>
+              </div>
+              <div class="channel-title-meta">
+                <h3 class="channel-name">GitHub Profil</h3>
+              </div>
+            </div>
+
+            <p class="channel-description">
+              Berikut adalah adalah link profil github saya.
+            </p>
+
+            <div class="channel-actions">
+              <a href="https://github.com/FathirRaihan" target="_blank" rel="noopener noreferrer"
+                class="btn btn-github btn-block" id="btn-go-github">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z">
+                  </path>
+                </svg>
+                <span>Buka Profil GitHub ↗</span>
+              </a>
+              <button type="button" class="btn btn-ghost btn-copy" data-copy="https://github.com/FathirRaihan"
+                id="btn-copy-github">
+                Salin Tautan Profil
+              </button>
+            </div>
+          </div>
+
+          <!-- KANAL 2: WHATSAPP (DENGAN GENERATOR PESAN FORMAL REKRUTER) -->
+          <div class="channel-card whatsapp-channel" id="channel-whatsapp">
+            <div class="channel-header">
+              <div class="channel-icon-circle whatsapp-circle">
+                <svg viewBox="0 0 24 24" width="32" height="32" fill="currentColor">
+                  <path
+                    d="M12.031 2C6.495 2 2 6.502 2 12.046c0 1.97.57 3.81 1.558 5.372L2 22l4.75-1.517c1.51.87 3.25 1.378 5.281 1.378 5.536 0 10.031-4.502 10.031-10.046C22.062 6.502 17.567 2 12.031 2zm5.82 14.288c-.244.686-1.418 1.31-1.956 1.394-.539.083-1.242.119-2.008-.124-.467-.149-1.07-.35-1.849-.687-3.262-1.415-5.385-4.71-5.549-4.928-.163-.218-1.328-1.766-1.328-3.37 0-1.603.839-2.392 1.137-2.72.298-.328.652-.41.87-.41.218 0 .436.002.628.012.203.01.474-.078.742.565.275.66.936 2.285 1.018 2.45.082.164.137.355.027.574-.11.218-.164.355-.328.547-.164.191-.345.426-.492.573-.164.164-.336.342-.144.671.191.328.85 1.404 1.821 2.27 1.252 1.116 2.308 1.462 2.636 1.626.328.164.519.137.71-.082.192-.218.82-1.066 1.038-1.43.218-.364.437-.3.737-.191.3.109 1.91.901 2.238 1.065.328.164.546.245.628.382.082.137.082.793-.162 1.479z" />
+                </svg>
+              </div>
+              <div class="channel-title-meta">
+                <h3 class="channel-name">WhatsApp</h3>
+              </div>
+            </div>
+
+            <p class="channel-description">
+              Hubungi saya melalui media WhatsApp dengan link dibawah ini, dan salin nomor yang sudah disediakan.
+            </p>
+
+            <div class="channel-actions">
+              <a href="https://wa.me/629531041639" target="_blank" rel="noopener noreferrer"
+                class="btn btn-whatsapp btn-block" id="btn-go-whatsapp">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+                  <path
+                    d="M12.031 2C6.495 2 2 6.502 2 12.046c0 1.97.57 3.81 1.558 5.372L2 22l4.75-1.517c1.51.87 3.25 1.378 5.281 1.378 5.536 0 10.031-4.502 10.031-10.046C22.062 6.502 17.567 2 12.031 2zm5.82 14.288c-.244.686-1.418 1.31-1.956 1.394-.539.083-1.242.119-2.008-.124-.467-.149-1.07-.35-1.849-.687-3.262-1.415-5.385-4.71-5.549-4.928-.163-.218-1.328-1.766-1.328-3.37 0-1.603.839-2.392 1.137-2.72.298-.328.652-.41.87-.41.218 0 .436.002.628.012.203.01.474-.078.742.565.275.66.936 2.285 1.018 2.45.082.164.137.355.027.574-.11.218-.164.355-.328.547-.164.191-.345.426-.492.573-.164.164-.336.342-.144.671.191.328.85 1.404 1.821 2.27 1.252 1.116 2.308 1.462 2.636 1.626.328.164.519.137.71-.082.192-.218.82-1.066 1.038-1.43.218-.364.437-.3.737-.191.3.109 1.91.901 2.238 1.065.328.164.546.245.628.382.082.137.082.793-.162 1.479z" />
+                </svg>
+                <span>Buka Obrolan WhatsApp ↗</span>
+              </a>
+              <button type="button" class="btn btn-ghost btn-copy" data-copy="+629531041639" id="btn-copy-phone">
+                Salin Nomor WhatsApp (+629531041639)
+              </button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer Formal -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-left">
+        <p class="footer-copy">
+          &copy; 2026 It Club, Tugas membuat <strong>portofolio</strong> diri sendiri.
+        </p>
+
+      </div>
+
+      <div class="footer-nav">
+        <a href="#tentang-saya">Tentang Saya</a>
+        <span class="dot-sep">•</span>
+        <a href="#pengalaman">Pengalaman</a>
+        <span class="dot-sep">•</span>
+        <a href="#kontak">Kontak</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <button type="button" class="back-to-top-btn" id="back-to-top" aria-label="Kembali ke Atas" title="Kembali ke Atas">
+    <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5"
+      stroke-linecap="round" stroke-linejoin="round">
+      <polyline points="18 15 12 9 6 15"></polyline>
+    </svg>
+  </button>
+
+  <!-- Interactive Feedback Toast -->
+  <div class="toast-notification" id="toast-notification" role="status" aria-live="polite">
+    <span class="toast-icon">✓</span>
+    <span class="toast-message" id="toast-message">Teks berhasil disalin ke clipboard!</span>
+  </div>
+
+  <!-- JavaScript Script -->
+  <script src="script.js"></script>
+</body>
+
+</html>
